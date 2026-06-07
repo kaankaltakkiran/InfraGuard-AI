@@ -8,6 +8,8 @@ import SolutionSection from "@/components/SolutionSection";
 import ReviewLanesSection from "@/components/ReviewLanesSection";
 import AIBoundarySection from "@/components/AIBoundarySection";
 import WorkflowSteps from "@/components/WorkflowSteps";
+import PullRequestCommentMockup from "@/components/PullRequestCommentMockup";
+import AdoptionSection from "@/components/AdoptionSection";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <ReviewLanesSection />
       <AIBoundarySection />
       <WorkflowSteps />
+      <PullRequestCommentMockup />
+      <AdoptionSection />
       <Footer />
     </main>
   );
