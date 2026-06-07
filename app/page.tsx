@@ -10,6 +10,8 @@ import AIBoundarySection from "@/components/AIBoundarySection";
 import WorkflowSteps from "@/components/WorkflowSteps";
 import PullRequestCommentMockup from "@/components/PullRequestCommentMockup";
 import AdoptionSection from "@/components/AdoptionSection";
+import UseCasesSection from "@/components/UseCasesSection";
+import CTASection from "@/components/CTASection";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <WorkflowSteps />
       <PullRequestCommentMockup />
       <AdoptionSection />
+      <UseCasesSection />
+      <CTASection />
       <Footer />
     </main>
   );
