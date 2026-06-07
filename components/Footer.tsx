@@ -5,7 +5,7 @@ import { ShieldCheck, Github, Twitter, ExternalLink } from "lucide-react";
 
 const footerLinks = {
   Product: [
-    { label: "Features", href: "#product" },
+    { label: "Featuressssss", href: "#product" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Demo", href: "#demo" },
     { label: "Pricing", href: "#pricing" },
@@ -45,7 +45,10 @@ export default function Footer() {
               <div className="relative">
                 <div className="absolute inset-0 bg-violet-600 rounded-lg blur-md opacity-40 group-hover:opacity-70 transition-opacity" />
                 <div className="relative bg-gradient-to-br from-violet-500 to-indigo-600 p-1.5 rounded-lg">
-                  <ShieldCheck className="w-5 h-5 text-white" strokeWidth={2.5} />
+                  <ShieldCheck
+                    className="w-5 h-5 text-white"
+                    strokeWidth={2.5}
+                  />
                 </div>
               </div>
               <span className="font-semibold text-sm">
@@ -57,8 +60,16 @@ export default function Footer() {
               AI-assisted Terraform PR reviews for security-conscious teams.
             </p>
             <div className="flex items-center gap-3">
-              <SocialLink href="#" icon={<Github className="w-4 h-4" />} label="GitHub" />
-              <SocialLink href="#" icon={<Twitter className="w-4 h-4" />} label="Twitter" />
+              <SocialLink
+                href="#"
+                icon={<Github className="w-4 h-4" />}
+                label="GitHub"
+              />
+              <SocialLink
+                href="#"
+                icon={<Twitter className="w-4 h-4" />}
+                label="Twitter"
+              />
             </div>
           </div>
 
@@ -76,7 +87,7 @@ export default function Footer() {
                       className="text-sm text-slate-500 hover:text-slate-300 transition-colors flex items-center gap-1 group"
                     >
                       {link.label}
-                      {("external" in link && link.external) && (
+                      {"external" in link && link.external && (
                         <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                       )}
                     </a>
