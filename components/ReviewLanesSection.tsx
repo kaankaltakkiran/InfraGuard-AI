@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import {
   ShieldAlert,
-  TrendingUp,
   Code2,
   CheckCircle2,
   XCircle,

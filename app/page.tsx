@@ -15,7 +15,7 @@ import CTASection from "@/components/CTASection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-navy-900">
+    <main className="min-h-screen bg-navy-900" aria-label="InfraGuard AI landing page">
       <Navbar />
       <HeroSection />
       <ProblemSection />

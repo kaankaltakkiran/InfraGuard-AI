@@ -62,6 +62,23 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgba(124, 58, 237, 0.7);
   }
+
+  /* Focus rings */
+  :focus-visible {
+    outline: 2px solid rgba(124, 58, 237, 0.7);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Better text rendering */
+  h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Prevent layout shift on scroll */
+  html {
+    overflow-y: scroll;
+  }
 }
 
 @layer utilities {
