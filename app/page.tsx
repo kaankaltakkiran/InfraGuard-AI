@@ -12,6 +12,7 @@ import PullRequestCommentMockup from "@/components/PullRequestCommentMockup";
 import AdoptionSection from "@/components/AdoptionSection";
 import UseCasesSection from "@/components/UseCasesSection";
 import CTASection from "@/components/CTASection";
+import PlanAnalyzer from "@/components/PlanAnalyzer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <WorkflowSteps />
       <PullRequestCommentMockup />
       <AdoptionSection />
+      <PlanAnalyzer />
       <UseCasesSection />
       <CTASection />
       <Footer />
