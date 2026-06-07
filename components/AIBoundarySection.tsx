@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { motion } from "framer-motion";
 import { ScanLine, Sparkles, UserCheck, ArrowRight } from "lucide-react";
 
@@ -94,9 +95,8 @@ export default function AIBoundarySection() {
           {columns.map((col, i) => {
             const Icon = col.icon;
             return (
-              <>
+              <React.Fragment key={col.label}>
                 <motion.div
-                  key={col.label}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -131,7 +131,6 @@ export default function AIBoundarySection() {
                 {/* Animated connector arrow (between columns) */}
                 {i < 2 && (
                   <motion.div
-                    key={`arrow-${i}`}
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
@@ -144,7 +143,7 @@ export default function AIBoundarySection() {
                     </div>
                   </motion.div>
                 )}
-              </>
+              </React.Fragment>
             );
           })}
         </div>
