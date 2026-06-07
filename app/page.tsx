@@ -6,6 +6,8 @@ import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
 import SolutionSection from "@/components/SolutionSection";
 import ReviewLanesSection from "@/components/ReviewLanesSection";
+import AIBoundarySection from "@/components/AIBoundarySection";
+import WorkflowSteps from "@/components/WorkflowSteps";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <ProblemSection />
       <SolutionSection />
       <ReviewLanesSection />
+      <AIBoundarySection />
+      <WorkflowSteps />
       <Footer />
     </main>
   );
