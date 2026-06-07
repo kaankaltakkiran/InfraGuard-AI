@@ -236,6 +236,8 @@ chown -R kaan:kaan /home/kaan/.ssh
 
 ---
 
+sudo chown -R kaan:kaan /home/kaan/apps/infraguard-ai
+
 # 10. GitHub Secrets
 
 Repo → Settings → Secrets and variables → Actions → New repository secret

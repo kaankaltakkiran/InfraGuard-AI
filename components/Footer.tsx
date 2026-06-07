@@ -5,7 +5,7 @@ import { ShieldCheck, Github, Twitter, ExternalLink } from "lucide-react";
 
 const footerLinks = {
   Product: [
-    { label: "Featuressssss", href: "#product" },
+    { label: "Features", href: "#product" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Demo", href: "#demo" },
     { label: "Pricing", href: "#pricing" },
